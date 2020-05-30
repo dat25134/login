@@ -133,6 +133,7 @@ body{
  display: inline-block;
  height: 80px;
  line-height: 22px;
+ 
 }
 .container_right {
     padding: 0px 50px;
@@ -141,26 +142,36 @@ body{
     width: 100%;
     padding: 0px;
     text-align: center;
+    margin-top: 25px;
 }
 .container_right .input{
-    width: 190px;
-    margin-left: 30px;
+    width: 60%;
+    margin-left: 65px;
 }
 .container_right #submit {
-    width: 220px;
-    margin-left: 30px;
+    width: 68%;
+    margin-left: 65px;
 }
 .container_right form input::placeholder{
     opacity: 1;
     font-weight: bold;
 }
 .container_right form h6{
-    padding: 0px 25px;
+    padding: 0px 70px;
 }
 .container_right form .icon_error{
-    left: 210px;
+    left: 290px;
 }
 .container_right form .note{
-    left: -30px;
+    left: -59px;
 }
+.container_right{
+width: 100%;
+padding: 100px 40px;
+margin: 0;
+}
+.container_left{
+width: 100%;
+}
+
 }
