@@ -115,6 +115,8 @@ body{
 .container_right form h6 span {
     color: var(--bg-primary);
 }
+
+/* screen 375px */
 @media screen and (max-width:375px){
 .container{
     display: block;
@@ -175,6 +177,7 @@ width: 100%;
 }
 
 }
+/* iphone5s */
 @media screen and (max-width:320px){
     .container{
         display: block;
@@ -217,7 +220,7 @@ width: 100%;
         font-weight: bold;
     }
     .container_right form h6{
-        padding: 0px 70px;
+        padding: 0px 50px;
     }
     .container_right form .icon_error{
         left: 245px;
